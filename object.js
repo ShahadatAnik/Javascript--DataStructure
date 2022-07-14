@@ -1,16 +1,15 @@
 const obj = {
-    name: 'John',
+    name: "John",
     age: 30,
     isMarried: false,
-    sayInfo: function() {
-        console.log("Name: "+ this.name);
-        console.log("Age: "+ this.age);
-        console.log("Married: "+ this.isMarried);
-        
-    }
-}
+    sayInfo: function () {
+        console.log("Name: " + this.name);
+        console.log("Age: " + this.age);
+        console.log("Married: " + this.isMarried);
+    },
+};
 
-obj.sex = "M" // add in object
+obj.sex = "M"; // add in object
 
 console.log(obj);
 obj.sayInfo();
